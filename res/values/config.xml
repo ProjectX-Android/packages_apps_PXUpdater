@@ -8,7 +8,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- PXUpdater Config Strings -->
-    <string name="conf_update_server_url_def" translatable="false">https://raw.githubusercontent.com/ProjectX-Android/PXUpdater-API/blob/lollipop-5.1/bacon/api.json</string>
+    <string name="conf_update_server_url_def" translatable="false">https://raw.githubusercontent.com/ProjectX-Android/PXUpdater-API/lollipop-5.1/m8/api.json</string>
     <string name="conf_changelog_url" translatable="false">http://localhost/changelog.xml</string>
     <bool name="alternateIsInternal">false</bool>
 </resources>
