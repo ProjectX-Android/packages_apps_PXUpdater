@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.projectx.utils;
+package com.projectx.updater.utils;
 
 import android.app.AlarmManager;
 import android.app.NotificationManager;
@@ -55,11 +55,11 @@ public class Utils {
     }
 
     public static String getDeviceType() {
-        return SystemProperties.get("ro.cm.device");
+        return SystemProperties.get("ro.px.device");
     }
 
     public static String getInstalledVersion() {
-        return SystemProperties.get("ro.cm.version");
+        return SystemProperties.get("ro.px.version");
     }
 
     public static int getInstalledApiLevel() {
